@@ -1,0 +1,14 @@
+<html>
+  <body>
+    <form id="square" action="/Program.cs">
+      Integer: <input type="integer" name="integer"><br>
+      <input type="button" onclick="myFunction()" value="Submit number">
+    </form>
+    
+    <script>
+      function myFunction() {
+        document.getElementById("square").submit();
+      }
+    </script>
+  </body>
+<html>
